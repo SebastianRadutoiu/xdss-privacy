@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rillo – Privacy policy</title>
+<style>
+  :root { --bg: #F6FAFE; --fg: #171C20; --muted: #40484E; --accent: #005F7F; --card: #EAEEF2; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0F1417; --fg: #DEE3E7; --muted: #C0C7CD; --accent: #7DD0FF; --card: #1B2024; }
+  }
+  html { -webkit-text-size-adjust: 100%; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 24px 16px 48px; }
+  h1 { font-size: 1.6rem; margin: 0 0 4px; }
+  h2 { font-size: 1.15rem; margin: 28px 0 8px; color: var(--accent); }
+  p, li { color: var(--fg); }
+  .muted { color: var(--muted); }
+  ul { padding-left: 1.2em; }
+  a { color: var(--accent); }
+  .card { background: var(--card); border-radius: 12px; padding: 12px 16px; }
+  code { font-size: 0.95em; }
+</style>
+</head>
+<body>
+<main>
+<h1>Rillo privacy policy</h1>
+<p class="muted">Rillo is a drink log with reminders, published by XDSS (package <code>com.xdss.hydration</code>).<br>
+Effective date: 11 November 2026.</p>
+
+<div class="card">
+<p><strong>In short:</strong> your drink log, goals and settings stay on your phone. Rillo has no account and no server of its own.
+The free version shows ads from Google AdMob, which collects device and usage data as described below.
+Rillo also uses Google Analytics for Firebase for anonymous usage statistics, only with your consent where it is required, and you can turn it off in Settings.
+Premium (a one-time purchase through Google Play) removes all ads.</p>
+</div>
+
+<h2>What Rillo stores on your device</h2>
+<ul>
+  <li>Your drink entries (amount, time, the day they count toward, time-zone offset, drink type and whether you logged them in the app, from a notification or from the widget).</li>
+  <li>Your daily goal history, cup sizes, units, reminder settings (interval, wake time, bedtime) and display preferences.</li>
+  <li>Whether you have Premium or an active 24-hour Insights trial (a cached copy of what Google Play reports).</li>
+  <li>Your last consent answer (so the app can respect it from the moment it starts) and your Usage statistics choice.</li>
+</ul>
+<p>This data is stored only in the app's private storage on your device. Rillo does not send your drink log, amounts, cup names or goals to us or to anyone else.
+If you use Android's device backup, your drink log and settings are included in your Google backup (the Premium status is not; it is restored from Google Play).
+If you choose "Export CSV", Rillo writes a file to the place you pick; what happens to that file afterwards is up to you.</p>
+<p>Rillo is a reminder and a log, not a health or medical tool. It does not ask for body data, health data, location or contacts.</p>
+
+<h2>Third-party services</h2>
+<ul>
+  <li><strong>Google Mobile Ads (AdMob)</strong>, free version only. To show and measure ads, the Google Mobile Ads SDK collects data such as your device's advertising ID, device information (model, OS version, language), app interactions with ads, IP address (from which an approximate location can be derived), and crash and performance diagnostics of the SDK. Depending on your consent choice, ads can be personalised or non-personalised.
+    See <a href="https://policies.google.com/privacy">Google's privacy policy</a> and <a href="https://policies.google.com/technologies/partner-sites">how Google uses information from apps that use its services</a>.</li>
+  <li><strong>Google Analytics for Firebase</strong> (usage statistics, free and Premium). See the next section.</li>
+  <li><strong>Google User Messaging Platform</strong> shows the consent form where required (for example in the EEA and UK) and stores your choice on the device. The same choice applies to ads and to usage statistics.</li>
+  <li><strong>Google Play Billing</strong> handles the Premium purchase. Payment is processed entirely by Google Play; Rillo never sees your payment details. The app only receives whether you own Premium.</li>
+</ul>
+<p>Rillo uses no crash-reporting service and no location tracking of its own.</p>
+
+<h2>Usage statistics (Google Analytics for Firebase)</h2>
+<p>To learn how Rillo is used (for example how often drinks are logged and whether from the app, a reminder or the widget, which screens are opened, whether reminders are turned on, how often the Premium screen, purchases and the rewarded trial are used, and ad revenue), Rillo uses Google Analytics for Firebase.
+It collects app interactions with predefined, coarse values only, plus device information (model, OS version, language), an app instance identifier, approximate location derived from the IP address and, where allowed, the advertising ID.
+It never records the amounts you log, your goal, cup names or anything else you enter.</p>
+<p>Usage statistics follow the same consent as ads: nothing is sent until your consent choice is known, and in regions that require consent they are collected only if you agree to storing and accessing information on your device.
+You can turn them off at any time in <strong>Settings &gt; Privacy &gt; Usage statistics</strong>. See <a href="https://firebase.google.com/support/privacy">Privacy and Security in Firebase</a>.</p>
+
+<h2>Your choices</h2>
+<ul>
+  <li><strong>Consent:</strong> where required by law you are asked before any ad is requested and before usage statistics are sent. You can change your choice at any time in Rillo under Settings &gt; Privacy &gt; Privacy choices.</li>
+  <li><strong>Usage statistics:</strong> turn them off at any time in Settings &gt; Privacy &gt; Usage statistics.</li>
+  <li><strong>Advertising ID:</strong> you can reset or delete it in your phone's settings (Settings &gt; Privacy &gt; Ads, or Google &gt; Ads, depending on the device).</li>
+  <li><strong>No ads:</strong> Rillo Premium removes all ads; Premium users' devices don't load the ads SDK.</li>
+  <li><strong>Notifications:</strong> reminders are off until you turn them on, and you can turn them off in Rillo or in Android settings.</li>
+</ul>
+
+<h2>Permissions</h2>
+<ul>
+  <li><strong>Notifications</strong> (Android 13+): to show the drink reminders you turn on. Asked only when you tap "Turn on".</li>
+  <li><strong>Run at startup</strong> (receive boot completed): to set your next reminder again after the phone restarts.</li>
+  <li><strong>Internet and network state</strong>: for ads, usage statistics, the consent form and Google Play purchases.</li>
+  <li><strong>Advertising ID and ad services</strong> (added by the Google Mobile Ads SDK): for ads in the free version.</li>
+  <li><strong>Google Play billing</strong>: for the Premium purchase.</li>
+  <li><strong>Wake lock and foreground service</strong> (added by Google libraries the ads and analytics SDKs use for their background work).</li>
+</ul>
+
+<h2>Children</h2>
+<p>Rillo is not directed at children under 13 (or the minimum age in your country) and we do not knowingly collect their data.</p>
+
+<h2>Keeping and deleting data</h2>
+<p>Your data stays on your device until you delete it. Deleting an entry removes it; clearing Rillo's storage or uninstalling the app removes everything Rillo stored.
+Data collected by Google's services is handled under Google's own retention policies linked above.</p>
+
+<h2>Changes</h2>
+<p>If this policy changes, the new version is published at this address with a new effective date, and significant changes are mentioned in the app's release notes.</p>
+
+<h2>Contact</h2>
+<p>Questions: <a href="mailto:sebiradutoiu@gmail.com">sebiradutoiu@gmail.com</a></p>
+</main>
+</body>
+</html>
