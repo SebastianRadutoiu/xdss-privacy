@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Penleaf – Privacy policy</title>
+<style>
+  :root { --bg: #FCF9F4; --fg: #1C1C19; --muted: #46483F; --accent: #1F6B5C; --card: #F1EEE8; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #141311; --fg: #E6E2DC; --muted: #C7C7BC; --accent: #86D6BE; --card: #201F1D; }
+  }
+  html { -webkit-text-size-adjust: 100%; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 24px 16px 48px; }
+  h1 { font-size: 1.6rem; margin: 0 0 4px; }
+  h2 { font-size: 1.15rem; margin: 28px 0 8px; color: var(--accent); }
+  p, li { color: var(--fg); }
+  .muted { color: var(--muted); }
+  ul { padding-left: 1.2em; }
+  a { color: var(--accent); }
+  .card { background: var(--card); border-radius: 12px; padding: 12px 16px; }
+  code { font-size: 0.95em; }
+</style>
+</head>
+<body>
+<main>
+<h1>Penleaf privacy policy</h1>
+<p class="muted">Penleaf is a notes and checklist app, published by XDSS (package <code>com.xdss.notes</code>).<br>
+Effective date: 12 November 2026.</p>
+
+<div class="card">
+<p><strong>In short:</strong> your notes and checklists stay on your phone. Penleaf has no account, no sync and no server of its own, and it never sends what you write to us or to anyone else.
+The free version shows ads from Google AdMob, which collects device and usage data as described below.
+Penleaf also uses Google Analytics for Firebase for anonymous usage statistics, only with your consent where it is required, and you can turn it off in Settings.
+Premium (a one-time purchase through Google Play) removes all ads.</p>
+</div>
+
+<h2>What Penleaf stores on your device</h2>
+<ul>
+  <li>Your notes and checklists: titles, text, checklist items, colors, pins, archive and trash state, reminder times, folders, and when each note was created and last edited.</li>
+  <li>Your display preferences (grid or list, sort order, theme).</li>
+  <li>If you turn on the app lock (Premium): a salted, one-way hash of your PIN (never the PIN itself), whether fingerprint or face unlock is allowed, and the count of wrong attempts. Fingerprints and faces are checked by Android; Penleaf never sees them.</li>
+  <li>Which note each home-screen widget shows.</li>
+  <li>Whether you have Premium or an active 24-hour Folders trial (a cached copy of what Google Play reports), your last consent answer and your Usage statistics choice.</li>
+</ul>
+<p>All of this is stored only in the app's private storage on your device. Notes in the trash are deleted for good 30 days after you move them there.</p>
+<p><strong>Backups:</strong> your notes are kept out of Google's cloud backup on purpose.
+On Android 12 and later they are copied only in a direct device-to-device transfer (for example a cable or Wi-Fi transfer to a new phone), together with the app lock.
+On Android 9 to 11 the notes are copied only in a device-to-device transfer and the app lock is not copied at all, so the notes arrive unlocked.
+On Android 8 nothing of your notes or the app lock is ever backed up or transferred.
+Your display preferences may be included in Android's normal backup. Premium status, the trial and your consent answer are never backed up (Premium is restored from Google Play).</p>
+<p>The app lock is a lock on the app's screens, not encryption: it keeps people who pick up your phone out of Penleaf, but notes are not encrypted on the device. While it is on, reminder notifications and home-screen widgets show no note text, and screenshots of Penleaf are blocked. A forgotten PIN cannot be recovered; the only way back in is to clear the app's data, which deletes your notes.</p>
+<p>When you share a note, Penleaf hands the text to the app you choose; what happens to it there is up to that app. When you share text into Penleaf, it is saved as a note on your device.</p>
+
+<h2>Third-party services</h2>
+<ul>
+  <li><strong>Google Mobile Ads (AdMob)</strong>, free version only. To show and measure ads, the Google Mobile Ads SDK collects data such as your device's advertising ID, device information (model, OS version, language), app interactions with ads, IP address (from which an approximate location can be derived), and crash and performance diagnostics of the SDK. Depending on your consent choice, ads can be personalised or non-personalised. Ads are never shown in the note editor, in notifications or in the widget.
+    See <a href="https://policies.google.com/privacy">Google's privacy policy</a> and <a href="https://policies.google.com/technologies/partner-sites">how Google uses information from apps that use its services</a>.</li>
+  <li><strong>Google Analytics for Firebase</strong> (usage statistics, free and Premium). See the next section.</li>
+  <li><strong>Google User Messaging Platform</strong> shows the consent form where required (for example in the EEA and UK) and stores your choice on the device. The same choice applies to ads and to usage statistics.</li>
+  <li><strong>Google Play Billing</strong> handles the Premium purchase. Payment is processed entirely by Google Play; Penleaf never sees your payment details. The app only receives whether you own Premium.</li>
+</ul>
+<p>Penleaf uses no crash-reporting service and no location tracking of its own.</p>
+
+<h2>Usage statistics (Google Analytics for Firebase)</h2>
+<p>To learn how Penleaf is used (for example which screens are opened, that a note or checklist was created, that a reminder was set or removed, that a note was shared or text was shared into the app, which Premium features are used, how often the Premium screen, purchases and the rewarded trial are used, and ad revenue), Penleaf uses Google Analytics for Firebase.
+It collects app interactions with predefined, coarse values only, plus device information (model, OS version, language), an app instance identifier, approximate location derived from the IP address and, where allowed, the advertising ID.
+It never records what you write: no titles, note text, checklist items, search words, folder names or shared text, and not how many notes you have.</p>
+<p>Usage statistics follow the same consent as ads: nothing is sent until your consent choice is known, and in regions that require consent they are collected only if you agree to storing and accessing information on your device.
+You can turn them off at any time in <strong>Settings &gt; Privacy &gt; Usage statistics</strong>. See <a href="https://firebase.google.com/support/privacy">Privacy and Security in Firebase</a>.</p>
+
+<h2>Your choices</h2>
+<ul>
+  <li><strong>Consent:</strong> where required by law you are asked before any ad is requested and before usage statistics are sent. You can change your choice at any time in Penleaf under Settings &gt; Privacy &gt; Privacy choices.</li>
+  <li><strong>Usage statistics:</strong> turn them off at any time in Settings &gt; Privacy &gt; Usage statistics.</li>
+  <li><strong>Advertising ID:</strong> you can reset or delete it in your phone's settings (Settings &gt; Privacy &gt; Ads, or Google &gt; Ads, depending on the device).</li>
+  <li><strong>No ads:</strong> Penleaf Premium removes all ads; for Premium users Penleaf never starts the ads SDK.</li>
+  <li><strong>Reminders and notifications:</strong> Penleaf notifies you only for reminders you set on a note. You can remove a reminder in the note, or turn notifications off in Android settings.</li>
+</ul>
+
+<h2>Permissions</h2>
+<ul>
+  <li><strong>Notifications</strong> (Android 13+): to show the reminders you set. Asked the first time you save a reminder.</li>
+  <li><strong>Alarms &amp; reminders</strong> (schedule exact alarms): so a reminder arrives at the minute you chose. Off by default on recent Android versions; without it reminders still arrive, a few minutes late at most while the phone is in use.</li>
+  <li><strong>Run at startup</strong> (receive boot completed): to set your reminders again after the phone restarts.</li>
+  <li><strong>Biometrics</strong> (Premium app lock): to unlock Penleaf with your fingerprint or face if you allow it.</li>
+  <li><strong>Internet and network state</strong>: for ads, usage statistics, the consent form and Google Play purchases. Your notes are never sent over the network.</li>
+  <li><strong>Advertising ID and ad services</strong> (added by the Google Mobile Ads SDK): for ads in the free version.</li>
+  <li><strong>Google Play billing</strong>: for the Premium purchase.</li>
+  <li><strong>Google Play install referrer</strong> (added by Google Analytics for Firebase): to tell whether the app was installed from Google Play.</li>
+  <li><strong>Wake lock and foreground service</strong> (added by Google libraries the ads and analytics SDKs use for their background work).</li>
+</ul>
+
+<h2>Children</h2>
+<p>Penleaf is not directed at children under 13 (or the minimum age in your country) and we do not knowingly collect their data.</p>
+
+<h2>Keeping and deleting data</h2>
+<p>Your notes stay on your device until you delete them. Deleting a note moves it to the trash, where it is deleted for good after 30 days or when you empty the trash. Clearing Penleaf's storage or uninstalling the app removes everything Penleaf stored.
+Data collected by Google's services is handled under Google's own retention policies linked above.</p>
+
+<h2>Changes</h2>
+<p>If this policy changes, the new version is published at this address with a new effective date, and significant changes are mentioned in the app's release notes.</p>
+
+<h2>Contact</h2>
+<p>Questions: <a href="mailto:sebiradutoiu@gmail.com">sebiradutoiu@gmail.com</a></p>
+</main>
+</body>
+</html>
