@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Clearstone Privacy Policy</title>
+<style>
+  :root { --bg: #f6f2ea; --fg: #1d1b18; --muted: #5c5446; --accent: #157269; --line: #e3d6c0; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0f1e22; --fg: #e3ecea; --muted: #a9bab7; --accent: #4cc2ba; --line: #252d2b; }
+  }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 24px 16px 48px; }
+  h1 { font-weight: 800; font-size: 28px; margin: 0 0 4px; letter-spacing: -0.3px; }
+  h2 { font-size: 18px; margin: 32px 0 8px; }
+  .meta { color: var(--muted); margin: 0 0 24px; }
+  a { color: var(--accent); }
+  table { border-collapse: collapse; width: 100%; margin: 8px 0; }
+  th, td { text-align: left; padding: 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { font-weight: 600; }
+</style>
+</head>
+<body>
+<main>
+<h1>Clearstone Privacy Policy</h1>
+<p class="meta">App: Clearstone (no-guess minesweeper), package <code>com.xdss.minesweeper</code> · Publisher: XDSS · Effective date: 13 November 2026</p>
+
+<p>Clearstone is an offline minesweeper game. You don't need an account, and the app has no server of its own. This page explains what the app keeps on your device and what the third-party services it uses (Google AdMob for ads, Google Analytics for Firebase for usage statistics, Google's consent tool, and Google Play for the Premium purchase) collect.</p>
+
+<h2>Data the app keeps on your device</h2>
+<ul>
+  <li>The boards in progress (the regular board and today's daily board): stones, flags, timer, hints shown, so you can continue exactly where you stopped.</li>
+  <li>Finished boards: difficulty, board size, result, time, hints used, whether a second chance was used, and the date. These power your statistics, best times and the daily calendar.</li>
+  <li>Your settings (board theme, app theme, sounds, haptics, long-press time and similar) and how many free hints you used today.</li>
+  <li>Whether you own Premium (a cached copy of what Google Play reports), your last consent answer and your Usage statistics choice.</li>
+</ul>
+<p>This data stays on your device; the app does not send it to us or to anyone else. If Android backup is on for your Google account, Android may include the app's settings, statistics and saved boards in your device backup, which Google stores under your account. Premium status and consent are excluded from backups.</p>
+
+<h2>Ads (Google AdMob)</h2>
+<p>The free version shows ads: a banner on the home screen, an ad box on the statistics screen and on the "Cleared!" result screen, an occasional full-screen ad when you move on from a finished board (never during a game, and never after one of your first two boards), and optional video ads you can choose to watch for an extra hint or to undo a mine and continue. Ads never appear on the game board.</p>
+<p>Ads are provided by Google AdMob. To show and measure ads, the Google Mobile Ads SDK collects and shares with Google:</p>
+<ul>
+  <li>your device's advertising ID (and app set ID),</li>
+  <li>device and app information (device model, OS version, app version, language, screen size),</li>
+  <li>approximate location derived from your IP address,</li>
+  <li>ad interaction data (which ads were shown and tapped) and diagnostic data from the SDK.</li>
+</ul>
+<p>Depending on your consent choices, ads may be personalized. Learn more in <a href="https://policies.google.com/technologies/partner-sites">How Google uses information from sites or apps that use its services</a> and the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+
+<h2>Usage statistics (Google Analytics for Firebase)</h2>
+<p>To learn how the game is played (for example how many boards are started and cleared, at which difficulty, how often hints, second chances or the Premium screen are used, which board theme is selected, and ad revenue per session), the app uses Google Analytics for Firebase. It collects app interactions with predefined, coarse values only (difficulty, result, durations in seconds, counts) plus device information, an app instance identifier and, where allowed, the advertising ID. It never records the boards you play, where you tap, or anything else you create in the app.</p>
+<p>Analytics follows the same consent as ads: nothing is collected until your consent choice is known, and in regions that require consent it is collected only if you agree to storing and accessing information on your device. You can turn it off at any time in <strong>Settings &gt; Privacy &gt; Usage statistics</strong>. See <a href="https://firebase.google.com/support/privacy">Privacy and Security in Firebase</a>.</p>
+
+<h2>Consent and your choices</h2>
+<ul>
+  <li>In the European Economic Area, the UK and Switzerland, the app asks for your consent with Google's User Messaging Platform before any ad is requested. You can change your choice at any time in <strong>Settings &gt; Privacy choices</strong> (shown when your region requires it).</li>
+  <li>You can reset or delete your advertising ID in your device's Android settings (Settings &gt; Privacy &gt; Ads), or opt out of ad personalization there.</li>
+  <li><strong>Premium</strong> removes all ads. On Premium devices the ads SDK is never started.</li>
+</ul>
+
+<h2>Purchases (Google Play)</h2>
+<p>Premium is a one-time purchase handled entirely by Google Play. The app never sees your payment details; it only receives a confirmation from Google Play that you own Premium. See the <a href="https://policies.google.com/privacy">Google Privacy Policy</a> and the <a href="https://payments.google.com/payments/apis-secure/u/0/get_legal_document?ldo=0&amp;ldt=privacynotice">Google Payments Privacy Notice</a>.</p>
+
+<h2>Permissions</h2>
+<table>
+  <tr><th>Permission</th><th>Why</th></tr>
+  <tr><td>Internet, network state</td><td>Loading ads, usage statistics, and talking to Google Play for the Premium purchase. The game itself works offline.</td></tr>
+  <tr><td>Advertising ID (<code>AD_ID</code>, Ad Services)</td><td>Declared by the Google Mobile Ads SDK to show and measure ads.</td></tr>
+  <tr><td>Google Play billing, install referrer</td><td>The one-time Premium purchase; the install referrer is read by Google's analytics library.</td></tr>
+  <tr><td>Wake lock, foreground service</td><td>Declared by Google libraries the ads and analytics SDKs use for background work; the game itself runs nothing in the background.</td></tr>
+</table>
+<p>The app does not request location, contacts, camera, microphone, storage, notification or vibration permissions. Haptic feedback uses the system's touch feedback, which you can turn off in the app or in Android settings.</p>
+
+<h2>Children</h2>
+<p>Clearstone is not directed at children under 13 (or the minimum age in your country), and we do not knowingly collect their data.</p>
+
+<h2>Keeping and deleting data</h2>
+<p>Data on your device stays until you delete it. "Reset statistics" in the app deletes your finished-board history. Uninstalling the app, or clearing its storage in Android settings, removes everything the app stored. Data collected by Google for ads, analytics and purchases is kept under Google's own policies; you can manage it at <a href="https://myaccount.google.com/">myaccount.google.com</a>.</p>
+
+<h2>Changes</h2>
+<p>If this policy changes, we'll update this page and its effective date, and mention notable changes in the app's release notes.</p>
+
+<h2>Contact</h2>
+<p>Questions: <a href="mailto:sebiradutoiu@gmail.com">sebiradutoiu@gmail.com</a></p>
+</main>
+</body>
+</html>
